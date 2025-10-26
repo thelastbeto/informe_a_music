@@ -17,7 +17,7 @@ class Musica:
     def __str__(self):
        return f'{self._nome}-{self.artista} -{self.duracao} - {self.disponivel}'
     
-     
+    # Property - Modifica como um atributo vai ser lido 
     @property
     def disponivel(self):
       return 'Disponível' if self._disponivel == True else 'Indisponível'
@@ -54,9 +54,5 @@ class Musica:
 
         
         
-    # Property - Modifica como um atributo vai ser lido
-
-
-# Verificando com VARS:
-# print(musica_1)
+    
 
